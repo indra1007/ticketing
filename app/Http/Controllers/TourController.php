@@ -10,4 +10,8 @@ class TourController extends Controller
     {
         return view('tour');
     }
+    public function tourdetail()
+    {
+        return view('tourdetail');
+    }
 }

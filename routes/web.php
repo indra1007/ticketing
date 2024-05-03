@@ -10,3 +10,4 @@ use App\Http\Controllers\TourController;
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/tour', [TourController::class, 'tour']);
+Route::get('/tourdetail', [TourController::class, 'tourdetail']);

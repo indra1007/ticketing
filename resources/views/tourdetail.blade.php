@@ -1,7 +1,6 @@
 @extends('layouts.main')
-@section('title', 'Tour Package')
+@section('title', 'Tour Detail Package')
 @section('content')
-
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -30,33 +29,13 @@
     </a>
 </div>
 
-<section class="tours">
-    <div class="tour">
-        <div class="tour-info">
-            <div class="discount-badge">-10%</div> <!-- Badge diskon -->
-            <img src="/images/balitour.jpg" alt="Tour 1 Image">
-            <h3>Tour Bali Package</h3>
-            <p>Hemat 10% untuk perjalanan ini!</p>
-        </div>
-    </div>
-    <div class="tour">
-        <div class="tour-info">
-            <div class="discount-badge">-15%</div> <!-- Badge diskon -->
-            <a href="/tourdetail"> <!-- Tautan ke halaman tourdetail -->
-                <img src="/images/jogjakarta.jpg" alt="Tour 2 Image">
-            </a>
-            <h3><a href="halaman-tourdetail.html">Tour Jogjakarta 3D2N</a></h3> <!-- Tautan ke halaman tourdetail -->
-            <p>Hemat 15% untuk perjalanan ini!</p>
-        </div>
-    </div>
-    <div class="tour">
-        <div class="tour-info">
-            <div class="discount-badge">-5%</div> <!-- Badge diskon -->
-            <img src="/images/dieng.jpg" alt="Tour 3 Image">
-            <h3>Tour Dieng 2D1N</h3>
-            <p>Hemat 5% untuk perjalanan ini!</p>
-        </div>
-    </div>
+<div class="tour-info">
+    <div class="discount-badge">-15%</div> <!-- Badge diskon -->
+        <img src="/images/jogjakarta.jpg" alt="Tour 2 Image">
+    <h3>Tour Jogjakarta 3D2N</h3> <!-- Tautan ke halaman tourdetail -->
+    <p>Hemat 15% untuk perjalanan ini!</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+</div>
 
-</section>
 @endsection
